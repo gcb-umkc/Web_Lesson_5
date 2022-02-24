@@ -1,11 +1,39 @@
 .container{
-  padding-top: 35px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
 }
 
-.DeleteRow{
-  padding-top: 10px;
+.row {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
 }
 
-.DeleteButton{
-  width: 25px;
+body {
+  background-color: rgb(20, 20, 20);
+  color: white;
 }
+
+.form-control {
+  height: 50;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
