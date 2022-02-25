@@ -5,15 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms'
-import {TimerComponent} from "./Timer/Timer.component";
-// import { timerComponent } from './Timer/timer/timer.component'
+import { timerComponent } from './Timer/timer/timer.component'
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        TimerComponent,
-        // timerComponent
-    ],
+  declarations: [
+    AppComponent,
+    timerComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
